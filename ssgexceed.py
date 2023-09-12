@@ -5,7 +5,7 @@ import datetime
 import json
 
 
-NOTE = "I have only recorded the wins from the 2 rounds tournament we played along with the two games of <i>Nu-13</i> vs <i>Arakune</i> James and I played."
+NOTE = ""
 
 
 if __name__ == "__main__":
@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
         # Title
         f.write(title)
-        f.write(f"<p>{NOTE}</p>")
+        # f.write(f"<p>{NOTE}</p>")
         f.write(f"<p><b>Last Updated:</b> {datetime.datetime.now().strftime('%m/%d/%Y')}</p>")
 
         # Characters
